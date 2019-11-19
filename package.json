@@ -1,0 +1,25 @@
+{
+  "name": "iotc-simulate-leafdevice-transparent-gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "winser -i -s -c",
+    "preuninstall": "winser -r -x -s"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "azure-iot-device": "^1.9.4",
+    "azure-iot-device-http": "^1.9.4",
+    "azure-iot-device-mqtt": "^1.9.4",
+    "azure-iot-provisioning-service": "^1.5.4",
+    "crypto": "^1.0.1",
+    "device": "^0.3.9",
+    "dotenv": "^6.2.0",
+    "request-promise-native": "^1.0.7",
+    "yargs": "^13.2.2"
+  }
+}
